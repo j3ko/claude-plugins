@@ -1,0 +1,14 @@
+{
+  "name": "dev-team",
+  "displayName": "Dev team",
+  "description": "An Opus main session that designs and delegates: an implementer that opens one PR per spec, a read-only researcher, and an independent reviewer",
+  "author": {
+    "name": "j3ko"
+  },
+  "keywords": [
+    "subagents",
+    "delegation",
+    "code-review",
+    "workflow"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "j3ko",
+  "owner": { "name": "j3ko" },
+  "description": "Personal Claude Code plugins",
+  "plugins": [
+    {
+      "name": "dev-team",
+      "source": "./plugins/dev-team",
+      "description": "An Opus main session that designs and delegates to implementer, researcher and reviewer subagents"
+    }
+  ]
+}
