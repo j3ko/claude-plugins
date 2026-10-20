@@ -14,7 +14,7 @@ Read by the dev-team implementer, researcher and reviewer agents.
 - Decision records: `<path>`, index at `<path>`. Read only the ones a spec names.
 - Component briefs: `<path>` | none
 - Verified external facts: `<path>`, one file per topic | none
-- Status / hand-off: `<path>`
+- Status / hand-off: `<path>` | issues in <tracker>, labels <...>; list them with `<exact command>`
 
 ### Commands
 - Worktree setup: `<e.g. uv sync -q | npm ci | none>`
