@@ -33,6 +33,8 @@ relative to the repo root: the implementer works in its own worktree.
 - Branch: `<type>/<short-description>`
 - PR title: `<conventional-commit title>`
 - Fix-up round on an existing PR? <no | yes: branch `<name>`, PR #<n>>
+- Closes #<n> | none (the issue this PR finishes; the line reaches the PR body with the
+  spec, and the tracker closes the issue on merge)
 - Attribution: <the commit trailer and PR closing line this session uses, copied
   verbatim: the implementer may not see the session's own instructions>
 ```

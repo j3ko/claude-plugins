@@ -52,8 +52,11 @@ files don't overlap.
 - **A user-stopped agent can't be resumed.** Relaunch on a new branch; leave the old
   worktree for the owner to inspect.
 - **Start a new session at natural boundaries**, such as after a PR lands, with a
-  hand-off written where the project keeps its status, rather than carrying one
-  session's context across several PRs.
+  hand-off written where the project keeps it (a status file, or open issues in its
+  tracker: the delegation contract says which), rather than carrying one session's
+  context across several PRs. With issues, the hand-off is the issues the session
+  touched: edit a body when its plan changed, comment with progress and findings, and
+  open a new issue for work that's next.
 
 ## Writing a hand-off spec
 
@@ -99,7 +102,8 @@ matters, and act on deviations and open questions before moving on.
 
 - Open PRs; don't merge them unless asked explicitly.
 - Keep to the scope that was asked for. List anything worth adding as a proposal and
-  let the owner decide.
+  let the owner decide. If the project tracks work in issues, also open the proposal as
+  an issue, so it outlives the session.
 - Repo and server settings, secrets and anything outward-facing are the owner's call.
   Ask first.
 - For a large task the owner wants to watch and steer live, suggest a separate session
