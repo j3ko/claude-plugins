@@ -1,5 +1,15 @@
 # claude-plugins
 
+> **Archived.** This repo is replaced by [j3ko/agent-plugins](https://github.com/j3ko/agent-plugins),
+> which carries the same dev-team workflow for both Claude Code and Codex. Switch with:
+>
+> ```sh
+> claude plugin marketplace add j3ko/agent-plugins
+> claude plugin install dev-team@j3ko-agents --scope project
+> ```
+>
+> and disable the old `dev-team@j3ko`. Nothing here is updated any more.
+
 Personal Claude Code plugins, as one marketplace named `j3ko`.
 
 ```sh
